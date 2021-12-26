@@ -1,0 +1,19 @@
+#DP1 - Casos totales por comuna incremental: Descripción
+#https://github.com/MinCiencia/Datos-COVID19/tree/master/output/producto1
+
+#seleccionar dato, abrir , alt + raw(boton) => se desargara archivo.txt
+______________________________________________________________________________________
+#IMPORTAR LIBRERIAS:
+import numpy as np
+import pandas as pd
+import seaborn as sns
+%matplotlib inline
+
+IMPORTAR DATOS:
+df = pd.read_csv('Covid-19.txt')
+
+df.info()
+#_____________________________________________________________________________________
+
+POBLACION TOTAL DE CHILE (Segun la fuente):
+df['Poblacion'].sum()
