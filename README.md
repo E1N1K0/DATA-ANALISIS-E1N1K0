@@ -6,7 +6,7 @@
 
 ## What the project does = Que hace el proyecto:
     Como acceder a datos oficiales COVID de Chile.<b>
-    Clone a git en carpeta de mi pc.<b>
+    Clonar a git en carpeta de mi pc.<b>
     Conecté y ecree un archivo con Jupyter.<b>
     Conecte la fuente de datos en linea.<b>
     Primeros analisis.<b>
